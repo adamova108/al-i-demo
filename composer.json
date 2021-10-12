@@ -1,0 +1,36 @@
+{
+    "name": "adamluzsi/al-inpsyde",
+    "description": "Test plugin for Inpsyde",
+    "license": "LGPL-3.0-or-later",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Adam Luzsi",
+            "email": "luzsiadam@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "brain/monkey": "*",
+        "inpsyde/php-coding-standards": "*",
+        "squizlabs/php_codesniffer": "*",
+        "wp-coding-standards/wpcs": "*"
+    },
+    "scripts": {
+        "phpcs": "phpcs --standard=phpcs.xml"
+    },
+    "autoload": {
+        "psr-4": {
+            "AL_Inpsyde\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AL_Inpsyde\\Tests\\": "tests/"
+        }
+    }
+}

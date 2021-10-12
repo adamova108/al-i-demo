@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset>
+    <config
+            name="installed_paths"
+            value="vendor/inpsyde/php-coding-standards/Inpsyde,vendor/wp-coding-standards/wpcs"
+    />
+
+    <file>./src</file>
+    <exclude-pattern>./tests/</exclude-pattern>
+
+    <arg value="sp"/>
+    <arg name="colors"/>
+
+    <rule ref="Inpsyde" />
+
+</ruleset>

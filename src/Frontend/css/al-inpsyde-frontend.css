@@ -1,0 +1,60 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.al-entry-content {
+    max-width: 1280px;
+    padding: 15px;
+    margin: 0 auto;
+    background: #fafafa;
+}
+
+.al-entry-content h1,
+.al-entry-content h2 {
+    text-align: center;
+}
+
+.al-entry-content h2 {
+    font-size: 17px;
+    margin: 10px 0 20px;
+}
+
+#al_users_table {
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.al_users_table th {
+    background: #ddd;
+}
+
+tr.user_details {
+    display: none;
+}
+
+tr.user_details.active {
+    display: table-row;
+}
+
+tr.active_user td a {
+    font-weight: 600;
+}
+
+.user_details_list {
+    columns: 3;
+    padding: 10px;
+}
+
+@media all and (max-width: 900px)  {
+    .user_details_list {
+        columns: 2;
+    }
+}
+
+@media all and (max-width: 650px)  {
+    .user_details_list {
+        columns: 1;
+    }
+}
