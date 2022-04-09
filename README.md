@@ -1,4 +1,4 @@
-# AL Inpsyde
+# AL-I Demo
 
 A simple demo plugin based on WordPress. :relaxed:
 
