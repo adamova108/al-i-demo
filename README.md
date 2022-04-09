@@ -1,7 +1,6 @@
 # AL Inpsyde
 
-A simple demo plugin for Inpsyde GmbH, so that the nice people there can see my current skills and give some helpful 
-feedback :relaxed:
+A simple demo plugin based on WordPress. :relaxed:
 
 ## Installation
 
