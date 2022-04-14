@@ -12,7 +12,7 @@ To install the plugin with composer:
 
 ### Without Composer
 
-#### Direct upload
+#### Direct upload (WARNING: You have to run composer first!)
 
 1. Upload the plugin _zip_ file in WordPress admin manually as you would normally do with other plugins.
 2. Alternatively you can upload the **unpacked** plugin folder to the *wp-content/plugins* folder directly. 
