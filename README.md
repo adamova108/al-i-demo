@@ -6,11 +6,9 @@ A simple demo plugin based on WordPress. :relaxed:
 
 ### Composer
 
-If this repository was *public* or if you had an auth token or an SSH key, the plugin could be simply installed with 
-composer, 
-like so:
+To install the plugin with composer:
 
-```$ composer require adamova108/al-inpsyde``` 
+```$ composer require adamova108/al-i-demo``` 
 
 ### Without Composer
 
@@ -22,7 +20,7 @@ like so:
 
 ## Configuration
 
-Once the plugin is activated, it will add a menu item called ```"AL Inpsyde"```. There is only one menu page where 
+Once the plugin is activated, it will add a menu item called ```"AL-I Demo"```. There is only one menu page where 
 you can set the transient expiration in seconds and turn "pseudo" debug mode on or off.  
 
 ## Usage
@@ -39,4 +37,4 @@ There are two built-in URL which show the users table:
 
 Copyright (c) 2021 Ádám Luzsi
 
-The _Al Inpsyde Plugin_ code is licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+The _Al-I Demo Plugin_ code is licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html).
